@@ -13,8 +13,9 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <Button
             android:text="Hello!"
@@ -26,8 +27,7 @@
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
             android:id="@+id/hello"
-            android:onClick="button tapped"/>
-
+            android:onClick="buttonTapped"/>
 
         <Button
             android:text="Good evening!"
@@ -38,8 +38,8 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:id="@+id/evening"
-            android:onClick="button tapped"/>
+            android:id="@+id/goodevening"
+            android:onClick="buttonTapped"/>
 
         <Button
             android:text="I live in ..."
@@ -50,9 +50,8 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:id="@+id/IliveIn"
-            android:onClick="button tapped"/>
-
+            android:id="@+id/ilivein"
+            android:onClick="buttonTapped"/>
 
         <Button
             android:text="How are you?"
@@ -63,8 +62,8 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:id="@+id/HowAreYou"
-            android:onClick="button tapped"/>
+            android:id="@+id/howareyou"
+            android:onClick="buttonTapped"/>
 
         <Button
             android:text="My name is..."
@@ -75,9 +74,8 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:id="@+id/MyNameIs"
-            android:onClick="button tapped"/>
-
+            android:id="@+id/mynameis"
+            android:onClick="buttonTapped"/>
 
         <Button
             android:text="Welcome!"
@@ -88,8 +86,8 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:id="@+id/Welcome"
-            android:onClick="button tapped"/>
+            android:id="@+id/welcome"
+            android:onClick="buttonTapped"/>
 
         <Button
             android:text="Do you &#10;speak English?"
@@ -100,9 +98,8 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:id="@+id/DoYouSpeak"
-            android:onClick="button tapped"/>
-
+            android:id="@+id/doyouspeakenglish"
+            android:onClick="buttonTapped"/>
 
         <Button
             android:text="Please."
@@ -113,8 +110,8 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:id="@+id/button7"
-            android:onClick="button tapped"/>
+            android:id="@+id/please"
+            android:onClick="buttonTapped"/>
 
     </GridLayout>
 </RelativeLayout>
